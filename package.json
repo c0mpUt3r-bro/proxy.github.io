@@ -1,0 +1,17 @@
+{
+  "name": "local-forward-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightweight HTTP/HTTPS forward proxy for local, authorized use.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
+
